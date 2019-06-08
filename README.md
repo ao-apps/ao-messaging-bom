@@ -30,12 +30,12 @@ Bill of Materials (BOM) for asynchronous bidirectional messaging over various pr
 * [AO Messaging API](https://github.com/aoindustries/ao-messaging-api)
 * [AO Messaging Base](https://github.com/aoindustries/ao-messaging-base)
 * [AO Messaging HTTP](https://github.com/aoindustries/ao-messaging-http)
-* [AO Messaging HTTP Client](https://github.com/aoindustries/ao-messaging-http-client)
-* [AO Messaging HTTP Client JS](https://github.com/aoindustries/ao-messaging-http-client-js)
-* [AO Messaging HTTP Servlet](https://github.com/aoindustries/ao-messaging-http-servlet)
+    * [AO Messaging HTTP Client](https://github.com/aoindustries/ao-messaging-http-client)
+    * [AO Messaging HTTP Client JS](https://github.com/aoindustries/ao-messaging-http-client-js)
+    * [AO Messaging HTTP Servlet](https://github.com/aoindustries/ao-messaging-http-servlet)
 * [AO Messaging TCP](https://github.com/aoindustries/ao-messaging-tcp)
-* [AO Messaging TCP Client](https://github.com/aoindustries/ao-messaging-tcp-client)
-* [AO Messaging TCP Server](https://github.com/aoindustries/ao-messaging-tcp-server)
+    * [AO Messaging TCP Client](https://github.com/aoindustries/ao-messaging-tcp-client)
+    * [AO Messaging TCP Server](https://github.com/aoindustries/ao-messaging-tcp-server)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
