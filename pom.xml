@@ -25,7 +25,7 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.aoindustries</groupId><artifactId>ao-oss-parent</artifactId><version>1.2.0-validation-SNAPSHOT</version>
+		<groupId>com.aoindustries</groupId><artifactId>ao-oss-parent</artifactId><version>1.2.0</version>
 		<relativePath>../../ao-oss-parent/pom.xml</relativePath>
 	</parent>
 
@@ -48,74 +48,74 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-api</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-api</artifactId><version>1.1.1</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-api</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-api</artifactId><version>1.1.1</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-base</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-base</artifactId><version>1.1.1</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-base</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-base</artifactId><version>1.1.1</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http</artifactId><version>1.1.1</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http</artifactId><version>1.1.1</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http-client</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http-client</artifactId><version>1.1.1</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http-client</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http-client</artifactId><version>1.1.1</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http-client-js</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http-client-js</artifactId><version>1.1.1</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http-client-js</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http-client-js</artifactId><version>1.1.1</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>1.1.1</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>1.1.1</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-tcp</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-tcp</artifactId><version>1.1.1</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-tcp</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-tcp</artifactId><version>1.1.1</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-tcp-client</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-tcp-client</artifactId><version>1.1.1</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-tcp-client</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-tcp-client</artifactId><version>1.1.1</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-tcp-server</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-tcp-server</artifactId><version>1.1.1</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-tcp-server</artifactId><version>1.1.1-validation-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-messaging-tcp-server</artifactId><version>1.1.1</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
