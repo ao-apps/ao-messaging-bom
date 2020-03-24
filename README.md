@@ -23,7 +23,7 @@ Bill of Materials (BOM) for asynchronous bidirectional messaging over various pr
 ## Project Links
 * [Project Home](https://aoindustries.com/ao-messaging/bom/)
 * [Changelog](https://aoindustries.com/ao-messaging/bom/changelog)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.aoindustries%22%20AND%20a:%22ao-messaging-bom%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.aoindustries/ao-messaging-bom)
 * [GitHub](https://github.com/aoindustries/ao-messaging-bom)
 
 ## Managed Dependencies
