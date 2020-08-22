@@ -134,7 +134,11 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.aoindustries</groupId><artifactId>aocode-public</artifactId><version>4.1.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
+				<!-- TODO: Remove this next time ao-messaging-http-client-js is released-->
 				<groupId>org.webjars</groupId><artifactId>jquery</artifactId><version>3.5.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.webjars.npm</groupId><artifactId>jquery</artifactId><version>3.5.1</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
