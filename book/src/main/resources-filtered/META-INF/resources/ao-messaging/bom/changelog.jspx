@@ -37,7 +37,7 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-06-08T16:47:39-0500"
-		dateModified="2020-09-03T20:37:23-05:00"
+		dateModified="2020-11-28T22:46:58-06:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.aoindustries:ao-messaging-bom:pom.version}" />
@@ -52,12 +52,21 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{project.scm.url}"
-			>
-				<ul>
-					<li>All Java components updated.  JavaScript implementation unchanged.</li>
-				</ul>
-			</changelog:release>
+			/>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="2.0.0"
+			datePublished="2020-11-28T22:46:58-06:00"
+			groupId="@{project.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{project.scm.url}"
+		>
+			<ul>
+				<li>All Java components updated.  JavaScript implementation unchanged but with updated jQuery.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
