@@ -22,7 +22,7 @@ You should have received a copy of the GNU Lesser General Public License
 along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 -->
 <jsp:root
-	xmlns:ao="https://aoindustries.com/ao-taglib/"
+	xmlns:ao="https://oss.aoapps.com/taglib/"
 	xmlns:c="http://java.sun.com/jsp/jstl/core"
 	xmlns:changelog="https://semanticcms.com/changelog/taglib/"
 	xmlns:core="https://semanticcms.com/core/taglib/"
@@ -37,7 +37,7 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-06-08T16:47:39-05:00"
-		dateModified="2021-05-26T06:36:49-05:00"
+		dateModified="2021-05-31T01:04:26-05:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
 			<changelog:release
@@ -45,11 +45,13 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 				version="@{project.version}"
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
+				repository="https://s01.oss.sonatype.org/content/repositories/snapshots/"
 				scmUrl="@{project.scm.url}"
 			>
 				<ul>
 					<li>Updated to <ao:a rel="nofollow" href="https://www.oracle.com/java/technologies/javaee/javaeetechnologies.html#javaee7">Java™ EE 7 Web Profile</ao:a> (Servlet 3.1, JSP 2.3, EL 3.0, and JSTL 1.2).</li>
 					<li>Minimum Java version changed from 1.8 to 11.</li>
+					<li>Maven artifact relocated from <code>com.aoindustries:ao-messaging-bom</code> to <code>com.aoapps:ao-messaging-bom</code>.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
@@ -58,7 +60,7 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="2.0.0"
 			datePublished="2020-11-28T22:46:58-06:00"
-			groupId="@{project.groupId}"
+			groupId="com.aoindustries"
 			artifactId="@{documented.artifactId}"
 			scmUrl="@{project.scm.url}"
 		>
@@ -71,7 +73,7 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.2.1"
 			datePublished="2020-03-28T20:46:16-05:00"
-			groupId="@{project.groupId}"
+			groupId="com.aoindustries"
 			artifactId="@{documented.artifactId}"
 			scmUrl="@{project.scm.url}"
 		>
@@ -80,7 +82,7 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 					Reduced use of property substitutions in <code>pom.xml</code>.
 					This is to help 3rd-party parsers that fail to perform full Maven-compatible substitutions.
 				</li>
-				<li>Updated version of <core:link book="/ao-messaging/http/servlet" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/messaging/http/servlet" page="/index.jspx" />.</li>
 			</ul>
 		</changelog:release>
 
@@ -88,17 +90,17 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.2.0"
 			datePublished="2019-10-05T20:33:28-05:00"
-			groupId="@{project.groupId}"
+			groupId="com.aoindustries"
 			artifactId="@{documented.artifactId}"
 			scmUrl="@{project.scm.url}"
 		>
 			<ul>
-				<li>Updated version of <core:link book="/ao-messaging/api" page="/index.jspx" />.</li>
-				<li>Updated version of <core:link book="/ao-messaging/http" page="/index.jspx" />.</li>
-				<li>Updated version of <core:link book="/ao-messaging/http/servlet" page="/index.jspx" />.</li>
-				<li>Updated version of <core:link book="/ao-messaging/tcp" page="/index.jspx" />.</li>
-				<li>Updated version of <core:link book="/ao-messaging/tcp/client" page="/index.jspx" />.</li>
-				<li>Updated version of <core:link book="/ao-messaging/tcp/server" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/messaging/api" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/messaging/http" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/messaging/http/servlet" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/messaging/tcp" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/messaging/tcp/client" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/messaging/tcp/server" page="/index.jspx" />.</li>
 			</ul>
 		</changelog:release>
 
@@ -106,7 +108,7 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.1.1"
 			datePublished="2019-06-21T06:17:20-05:00"
-			groupId="@{project.groupId}"
+			groupId="com.aoindustries"
 			artifactId="@{documented.artifactId}"
 			scmUrl="@{project.scm.url}"
 		>
