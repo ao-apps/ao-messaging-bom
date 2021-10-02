@@ -173,6 +173,10 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<!-- Reported by versions:display-dependency-updates -->
+			<dependency>
+				<groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId><version>5.1.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>
