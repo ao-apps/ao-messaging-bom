@@ -29,7 +29,7 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.aoapps</groupId><artifactId>ao-messaging-bom</artifactId><version>3.0.1-POST-SNAPSHOT</version>
+	<groupId>com.aoapps</groupId><artifactId>ao-messaging-bom</artifactId><version>3.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -142,10 +142,10 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.aoapps</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>3.0.0${POST-SNAPSHOT}</version>
+				<groupId>com.aoapps</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>3.0.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoapps</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>3.0.0${POST-SNAPSHOT}</version>
+				<groupId>com.aoapps</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>3.0.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -178,13 +178,13 @@ along with ao-messaging-bom.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.aoapps</groupId><artifactId>ao-collections</artifactId><version>3.0.0${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoapps</groupId><artifactId>ao-concurrent</artifactId><version>4.0.1${POST-SNAPSHOT}</version>
+				<groupId>com.aoapps</groupId><artifactId>ao-concurrent</artifactId><version>4.0.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoapps</groupId><artifactId>ao-hodgepodge</artifactId><version>5.0.1${POST-SNAPSHOT}</version>
+				<groupId>com.aoapps</groupId><artifactId>ao-hodgepodge</artifactId><version>5.0.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId><version>5.1.2${POST-SNAPSHOT}</version>
+				<groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId><version>5.1.3-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
