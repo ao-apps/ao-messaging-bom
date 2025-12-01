@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-messaging-bom - Bill of Materials (BOM) for asynchronous bidirectional messaging over various protocols.
-Copyright (C) 2024  AO Industries, Inc.
+Copyright (C) 2024, 2025  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -37,7 +37,7 @@ along with ao-messaging-bom.  If not, see <https://www.gnu.org/licenses/>.
       <ignoreVersions>
         <ignoreVersion type="regex">.*-alpha[0-9]*</ignoreVersion>
         <ignoreVersion type="regex">.*-beta\.?[0-9]*</ignoreVersion>
-        <ignoreVersion type="regex">.*-rc[0-9]*</ignoreVersion>
+        <ignoreVersion type="regex">.*-rc\.?[0-9]*</ignoreVersion>
       </ignoreVersions>
     </rule>
   </rules>
