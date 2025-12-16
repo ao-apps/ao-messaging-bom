@@ -39,7 +39,7 @@ def upstreamProjects = [
   'http', // <groupId>com.aoapps</groupId><artifactId>ao-messaging-http</artifactId>
   'http-client', // <groupId>com.aoapps</groupId><artifactId>ao-messaging-http-client</artifactId>
   'http-client-js', // <groupId>com.aoapps</groupId><artifactId>ao-messaging-http-client-js</artifactId>
-  'http-servlet', // <groupId>com.aoapps</groupId><artifactId>ao-messaging-http-servlet</artifactId>
+  'http-servlet-javaee', // <groupId>com.aoapps</groupId><artifactId>ao-messaging-http-servlet</artifactId>
   'tcp', // <groupId>com.aoapps</groupId><artifactId>ao-messaging-tcp</artifactId>
   'tcp-client', // <groupId>com.aoapps</groupId><artifactId>ao-messaging-tcp-client</artifactId>
   'tcp-server', // <groupId>com.aoapps</groupId><artifactId>ao-messaging-tcp-server</artifactId>
