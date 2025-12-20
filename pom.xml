@@ -103,6 +103,31 @@ along with ao-messaging-bom.  If not, see <https://www.gnu.org/licenses/>.
     </repository>
   </repositories>
 
+  <profiles>
+    <profile>
+      <id>jakartaee</id>
+      <activation>
+        <property>
+          <name>jakartaee.skip</name>
+          <value>!true</value>
+        </property>
+      </activation>
+      <dependencyManagement>
+        <dependencies>
+          <dependency>
+            <groupId>com.aoapps</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>4.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+          </dependency>
+          <!-- Imports -->
+          <dependency>
+            <groupId>com.aoapps</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>4.0.0-SNAPSHOT</version>
+            <type>pom</type>
+            <scope>import</scope>
+          </dependency>
+        </dependencies>
+      </dependencyManagement>
+    </profile>
+  </profiles>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -119,9 +144,6 @@ along with ao-messaging-bom.  If not, see <https://www.gnu.org/licenses/>.
       </dependency>
       <dependency>
         <groupId>com.aoapps</groupId><artifactId>ao-messaging-http-client-js</artifactId><version>3.0.0${POST-SNAPSHOT}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>3.2.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.aoapps</groupId><artifactId>ao-messaging-tcp</artifactId><version>3.2.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
@@ -155,11 +177,6 @@ along with ao-messaging-bom.  If not, see <https://www.gnu.org/licenses/>.
       </dependency>
       <dependency>
         <groupId>com.aoapps</groupId><artifactId>ao-messaging-http-client-js</artifactId><version>3.0.0-POST-SNAPSHOT</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>3.2.0-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
