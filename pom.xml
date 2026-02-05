@@ -115,11 +115,11 @@ along with ao-messaging-bom.  If not, see <https://www.gnu.org/licenses/>.
       <dependencyManagement>
         <dependencies>
           <dependency>
-            <groupId>com.aoapps</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>4.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+            <groupId>com.aoapps</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>4.0.0${POST-SNAPSHOT}</version>
           </dependency>
           <!-- Imports -->
           <dependency>
-            <groupId>com.aoapps</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>4.0.0-SNAPSHOT</version>
+            <groupId>com.aoapps</groupId><artifactId>ao-messaging-http-servlet</artifactId><version>4.0.0-POST-SNAPSHOT</version>
             <type>pom</type>
             <scope>import</scope>
           </dependency>
